@@ -1,0 +1,104 @@
+#latest_cutie{ 
+	width:400px; 
+	padding-right:250px; 
+	position:relative; 
+	border:1px solid #ccc; 
+	height:333px; overflow:hidden;
+	background:#fff;
+	text-align:left;
+}
+#latest_cutie ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; left:400px; 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:250px; height:340px;
+	overflow:auto;
+	overflow-x:hidden;
+}
+#latest_cutie ul.ui-tabs-nav li{ 
+	padding:1px 0; padding-left:13px;  
+	font-size:12px; 
+	color:#666; 
+}
+#latest_cutie ul.ui-tabs-nav li img{ 
+	float:left; margin:2px 5px; 
+	background:#fff; 
+	padding:2px; 
+	border:1px solid #eee;
+	float:left;
+}
+#latest_cutie ul.ui-tabs-nav li span{ 
+	font-size:11px; font-family:Verdana; 
+	line-height:18px; 
+}
+#latest_cutie li.ui-tabs-nav-item a{ 
+	display:block; 
+	height:80px; text-decoration:none;
+	color:#333;  background:#fff; 
+	line-height:20px; outline:none;
+}
+
+#latest_cutie li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#latest_cutie li.ui-tabs-selected{ 
+	background:url('images/selected-item.gif') top left no-repeat;  
+}
+#latest_cutie ul.ui-tabs-nav li.ui-tabs-selected a{ 
+	background:#ccc; 
+}
+#latest_cutie .ui-tabs-panel{ 
+	width:400px; height:340px; 
+	background:#f1f1f1; position:relative;
+	text-align: center;
+}
+#latest_cutie .ui-tabs-panel .info{ 
+	position:absolute; 
+	bottom:0; left:0; 
+	height:70px; 
+	background: #000 url('../img/transparent-bg.png');
+	width:100%;
+	text-align: left;
+}
+
+#latest_cutie .ui-tabs-panel .info a.hideshow{
+	position:absolute; font-size:11px; font-family:Verdana; color:#f0f0f0; right:10px; top:-20px; line-height:20px; margin:0; outline:none; background:#333;
+}
+#latest_cutie .info h2{ 
+	font-size:1.2em; font-family:Georgia, serif; 
+	color:#fff; padding:5px; margin:0; font-weight:normal;
+	overflow:hidden; 
+}
+#latest_cutie .info p{ 
+	margin:0 5px; 
+	font-family:Verdana; font-size:11px; 
+	line-height:15px; color:#f0f0f0;
+}
+#latest_cutie .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+#latest_cutie .info a:hover{ 
+	text-decoration:underline; 
+}
+#latest_cutie .info .info-details{
+	color:#5c815c !important;
+}
+#latest_cutie .info .info-details a.userpostcutie{
+	color:#5b8f0a !important;
+}
+#latest_cutie .ui-tabs-hide{ 
+	display:none; 
+}
+
+/*Lastest CutieSpots*/
+#latest_cutiespots{
+	margin-top:2px;
+	width:650px; 
+	position:relative; 
+/*	border:1px solid #ccc; 
+*/	min-height:333px; overflow:hidden;
+	background:#fff;
+	text-align:left;
+}
