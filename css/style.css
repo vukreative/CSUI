@@ -2382,6 +2382,7 @@ a.googleandroid:hover{
 }
 #user-profile .account-info ul{
 	padding-left:15px;
+	padding-top:10px;
 }
 #user-profile .account-info ul li{
 	padding-bottom:10px;
@@ -2708,4 +2709,67 @@ text-shadow:0 1px 0 #FFFFFF;
 .user-fans .listfans .resize2{
 	height:100px;
 	width:auto;
+}
+/*User Messages*/
+.user-message{
+	width:730px;
+	margin-top:10px;
+
+}
+.user-message a{
+	text-decoration:none;
+	color:#0080FF;
+	
+}
+.compose-new{
+	font-size:12px !important;
+}
+.user-message h3{
+	font-size:18px;
+	padding-left:10px;
+	color:#666;
+}
+.user-message .inbox .messagebox .account-avatar{
+	border:1px solid #ccc;
+	padding:2px;
+}
+.user-message .inbox .messagebox .account-avatar img{
+	width:55px;
+	height:61px;
+}
+.user-message h3.datetime{
+	font-size:9px;
+	color:#666;
+	font-weight:normal;
+	text-align:left;
+	padding-left:10px;
+	margin-top:10px;
+	letter-spacing:-1px;
+}
+.user-message h3.username{
+	color:#003366;
+	font-size:12px;
+	padding-left:10px;
+	padding-top:5px;
+}
+.user-message .inbox{
+	width:730px;
+	margin-top:10px;
+	padding:5px;
+	border:1px solid #ddd;
+}
+.user-mesage .message-from{
+	width:250px;
+}
+.user-mesage .message-from h3{
+	color:#999;
+	font-size:13px !important;
+}
+.user-message .inbox .messagebox{
+	min-height:80px;
+	overflow:hidden;
+	border-bottom:1px solid #ddd;
+}
+.messagecount{
+	
 }
