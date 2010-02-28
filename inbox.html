@@ -5,6 +5,7 @@
     <title><!-- Insert your title here --></title>
 	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" title="no title" charset="utf-8" />
     <link rel="stylesheet" href="Css/style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+	<link rel="stylesheet" href="css/pagination.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<script src="js/jquery.min.js" type="text/javascript"></script>
 	<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/frontend.js" type="text/javascript"></script>
@@ -65,17 +66,98 @@
 			
            <div class="user-message tal left">
            		<h3>Inbox <span class="compose-new"><a href="#" title="">Compose</a></span></h3>
+				
 				<div class="inbox">
-					<div class="messagebox">
+					<ul class="left messageacts">
+						<li><a href="" title="">Select all</a></li>
+						<li><a href="" title="">Select none</a></li>
+						<li><a href="" title="">Mark as read</a></li>
+						<li><a href="" title="">Mark as spam</a></li>												
+					</ul>
+					
+					<div class="left messagebox">
+						<input type="checkbox" name="" value="" id="" class="left cb">
+						
 						<div class="account-avatar left">
 							<img src="img/avatar/5.jpg" alt="Avatar" />
-						</div>
+						</div><!-- account-avatar -->
+						
 						<div class="left message-from">
 							<h3 class="username"><a href="">Sam Daon</a></h3>
-							<h3 class="datetime">March 21, 2010 at 11:56 am</h3>
+							<h3 class="datetime">March 21, 2010 at 11:56 am</h3>							
 						</div><!-- message-from -->
+						
+						<div class="left hcontent">
+							<h3><a href="" title="">lorem ipsum</a></h3>
+							<div class="inner left">
+								<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+							</div><!-- .inner -->
+							
+							<div class="left ldelete">
+								<a href="#" title="Delete this message">Delete this message</a>
+							</div><!-- .ldelete -->
+							
+						</div><!-- hcontent -->
 					</div><!-- messagebox -->
+					<div class="left messagebox">
+						<input type="checkbox" name="" value="" id="" class="left cb">
+						
+						<div class="account-avatar left">
+							<img src="img/avatar/5.jpg" alt="Avatar" />
+						</div><!-- account-avatar -->
+						
+						<div class="left message-from">
+							<h3 class="username"><a href="">Sam Daon</a></h3>
+							<h3 class="datetime">March 21, 2010 at 11:56 am</h3>							
+						</div><!-- message-from -->
+						
+						<div class="left hcontent">
+							<h3><a href="" title="">lorem ipsum</a></h3>
+							<div class="inner left">
+								<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+							</div><!-- .inner -->
+							
+							<div class="left ldelete">
+								<a href="#" title="Delete this message">Delete this message</a>
+							</div><!-- .ldelete -->
+							
+						</div><!-- hcontent -->
+					</div><!-- messagebox -->
+
+					<div class="left messagebox">
+						<input type="checkbox" name="" value="" id="" class="left cb">
+						
+						<div class="account-avatar left">
+							<img src="img/avatar/5.jpg" alt="Avatar" />
+						</div><!-- account-avatar -->
+						
+						<div class="left message-from">
+							<h3 class="username"><a href="">Sam Daon</a></h3>
+							<h3 class="datetime">March 21, 2010 at 11:56 am</h3>							
+						</div><!-- message-from -->
+						
+						<div class="left hcontent">
+							<h3><a href="" title="">lorem ipsum</a></h3>
+							<div class="inner left">
+								<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+							</div><!-- .inner -->
+							
+							<div class="left ldelete">
+								<a href="#" title="Delete this message">Delete this message</a>
+							</div><!-- .ldelete -->
+							
+						</div><!-- hcontent -->
+					</div><!-- messagebox -->
+					
+					<!-- PAGINATION -->
+					<div id="tnt_pagination">
+					<span class="disabled_tnt_pagination">Prev</span><a href="#forwaed">Next</a></div>
+					<!-- /PAGINATION -->
 				</div><!-- inbox -->
+				
+				
+				
+				
            </div><!-- user-message -->
 			
 			<div id="user-profile" class="right col250p">

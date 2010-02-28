@@ -1594,7 +1594,7 @@ padding-left:24px;
 	margin-left:5px;
 	text-align: left;
 }
-.topcutie h3,.topcutiespot h3, .topusers h3, .user-recent-acts h3, .user-recent-cuties h3, .user-recent-cutiespot h3, .user-fans h3{
+.topcutie h3,.topcutiespot h3, .topusers h3, .user-recent-acts h3, .user-recent-cuties h3, .user-recent-cutiespot h3, .user-fans h3, .user-message h3{
 	font-size:18px;
 	font-weight:bold;
 	font-style:italic;
@@ -2724,10 +2724,8 @@ text-shadow:0 1px 0 #FFFFFF;
 .compose-new{
 	font-size:12px !important;
 }
-.user-message h3{
-	font-size:18px;
-	padding-left:10px;
-	color:#666;
+.user-message .inbox .messagebox{
+	margin-bottom:5px;
 }
 .user-message .inbox .messagebox .account-avatar{
 	border:1px solid #ccc;
@@ -2737,7 +2735,10 @@ text-shadow:0 1px 0 #FFFFFF;
 	width:55px;
 	height:61px;
 }
-.user-message h3.datetime{
+.user-message .message-from h3{
+	font-weight: 200 !important;
+}
+.user-message .message-from .datetime{
 	font-size:9px;
 	color:#666;
 	font-weight:normal;
@@ -2745,31 +2746,106 @@ text-shadow:0 1px 0 #FFFFFF;
 	padding-left:10px;
 	margin-top:10px;
 	letter-spacing:-1px;
+	font-style:none;
 }
-.user-message h3.username{
+.user-message .message-from .username{
 	color:#003366;
 	font-size:12px;
 	padding-left:10px;
 	padding-top:5px;
 }
+.user-message .message-from .reply{
+	font-weight: normal;
+	margin-top:10px;
+	font-size: 12px !important;
+}
 .user-message .inbox{
 	width:730px;
 	margin-top:10px;
+	overflow:hidden;
 	padding:5px;
 	border:1px solid #ddd;
 }
+.user-message .inbox .messageacts{
+	clear:left;
+	background:#E9F3F9;
+	width:730px;
+	height:28px;
+	margin-bottom:10px;
+}
+.user-message .inbox .messageacts li{
+	float:left	;
+
+	font-size: 12px;
+	text-shadow:0 1px #fff;
+}
+.user-message .inbox .messageacts li a{
+	padding:5px;
+	border: 1px solid #fff;	
+	display:block;
+		margin:2px;
+	-moz-border-radius:5px;	
+	background:#f0f0f0 url('../img/white-grad.png') repeat top left;
+}
+.user-message .inbox .messageacts li a:hover{
+	border: 1px solid #999;
+	background:#f0f0f0  url('../img/blue-grad.png') repeat top left;;
+}
 .user-mesage .message-from{
 	width:250px;
-}
-.user-mesage .message-from h3{
-	color:#999;
-	font-size:13px !important;
 }
 .user-message .inbox .messagebox{
 	min-height:80px;
 	overflow:hidden;
 	border-bottom:1px solid #ddd;
 }
-.messagecount{
+.user-message .inbox .messagebox .cb{
+	margin-top:30px;
+	border: 1px solid #999;
+
+}
+.user-message .inbox .messagebox .hcontent{
+	margin-left:15px;
+	width:510px;
+}
+.user-message .inbox .messagebox .hcontent h3{
+
+}
+.user-message .inbox .messagebox .hcontent h3 a{
+	color:#666;
+	font-weight: normal;
 	
+}
+.user-message .inbox .messagebox .hcontent .inner{
+	font-size: 12px;
+	color:#999;
+	width:490px;
+}
+.user-message .inbox .messagebox .hcontent:hover .ldelete{
+	display:block;
+}
+.user-message .inbox .messagebox .hcontent .ldelete {
+	display:none;
+	width: 16px;
+	height: 16px;
+	background: url('../../CutieSpot New UI/img/icons/bdelete.png') no-repeat;
+}
+
+.user-message .inbox .messagebox .hcontent .ldelete a {
+	display: block;
+	width: 16px;
+	float:left;
+	height: 0;
+	font-size: 1em;
+	padding-top: 16px;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url('../../CutieSpot New UI/img/icons/bdelete.png') no-repeat;
+}
+.messagecount{
+	background:#FF8000;
+	border: 1px solid #fff;
+	padding:1px 5px;
+	color:#fff;
+	font-size: 10px;
 }
