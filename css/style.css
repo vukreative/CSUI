@@ -752,12 +752,12 @@ a.wgbt span{
 	float:left;
 	width:250px;
 }
-.cform form .formline .submitsignin, .replybt, .commentbt{
+.cform form .formline .submitsignin, .replybt, .commentbt, .replymsg .submitsignin{
 	margin-top:2px;
-	min-width:150px;
-	padding:5px;
-	line-height:1.4em;
-	font-size: 1.4em;
+	min-width:130px;
+	padding:2px 0;
+	line-height:1.3em;
+	font-size: 1.2em;
 	color:#4B9AEB;
 	font-weight: bold;
 		text-shadow: #fff 0 1px 0;
@@ -2714,7 +2714,7 @@ text-shadow:0 1px 0 #FFFFFF;
 .user-message{
 	width:730px;
 	margin-top:10px;
-
+	
 }
 .user-message a{
 	text-decoration:none;
@@ -2724,8 +2724,12 @@ text-shadow:0 1px 0 #FFFFFF;
 .compose-new{
 	font-size:12px !important;
 }
+.user-message .inbox{
+background:#FAFAFA;
+}
 .user-message .inbox .messagebox{
-	margin-bottom:5px;
+	padding:5px 0;
+	width:730px;
 }
 .user-message .inbox .messagebox .account-avatar{
 	border:1px solid #ccc;
@@ -2761,9 +2765,8 @@ text-shadow:0 1px 0 #FFFFFF;
 }
 .user-message .inbox{
 	width:730px;
-	margin-top:10px;
 	overflow:hidden;
-	padding:5px;
+
 	border:1px solid #ddd;
 }
 .user-message .inbox .messageacts{
@@ -2771,7 +2774,8 @@ text-shadow:0 1px 0 #FFFFFF;
 	background:#E9F3F9;
 	width:730px;
 	height:28px;
-	margin-bottom:10px;
+	padding:5px;
+	border-bottom: 1px solid #ddd;
 }
 .user-message .inbox .messageacts li{
 	float:left	;
@@ -2788,8 +2792,10 @@ text-shadow:0 1px 0 #FFFFFF;
 	background:#f0f0f0 url('../img/white-grad.png') repeat top left;
 }
 .user-message .inbox .messageacts li a:hover{
-	border: 1px solid #999;
-	background:#f0f0f0  url('../img/blue-grad.png') repeat top left;;
+	border: 1px solid #E9F3F9;
+	background:#f0f0f0  url('../img/blue-grad.png') repeat top left;
+	border-top: 1px solid #D7EEFE;
+	border-left: 1px solid #D7EEFE;
 }
 .user-mesage .message-from{
 	width:250px;
@@ -2798,6 +2804,7 @@ text-shadow:0 1px 0 #FFFFFF;
 	min-height:80px;
 	overflow:hidden;
 	border-bottom:1px solid #ddd;
+	border-top:1px solid #fff;
 }
 .user-message .inbox .messagebox .cb{
 	margin-top:30px;
@@ -2807,19 +2814,23 @@ text-shadow:0 1px 0 #FFFFFF;
 .user-message .inbox .messagebox .hcontent{
 	margin-left:15px;
 	width:510px;
+	text-shadow:0 1px #fff;
 }
 .user-message .inbox .messagebox .hcontent h3{
-
+	font-weight: normal;
 }
 .user-message .inbox .messagebox .hcontent h3 a{
 	color:#666;
-	font-weight: normal;
+
 	
 }
 .user-message .inbox .messagebox .hcontent .inner{
 	font-size: 12px;
 	color:#999;
 	width:490px;
+}
+.user-message .inbox .messagebox .hcontent .inner a{
+	color:#4C4C4C;
 }
 .user-message .inbox .messagebox .hcontent:hover .ldelete{
 	display:block;
@@ -2848,4 +2859,29 @@ text-shadow:0 1px 0 #FFFFFF;
 	padding:1px 5px;
 	color:#fff;
 	font-size: 10px;
+}
+
+.replymsg{
+	padding-top: 1em;
+	float:left;
+	margin-bottom: 1em;
+}
+.replymsg h3{
+	font-size:13px;
+/*	border-bottom: 1px solid #ddd;
+*/	width:730px;
+	padding-left: 1em;
+}
+.replymsg .textareamsg{
+	margin-left:120px;
+	margin-bottom: 1em;
+}
+.replymsg .textareamsg textarea{
+	width:490px;
+	padding:2px;
+	color:#666;
+	border: 1px solid #Ccc;
+	font-size: 12px;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	line-height: 16px;
 }

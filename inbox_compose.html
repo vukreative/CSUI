@@ -65,100 +65,59 @@
 		<div id="wrapper" class="center">
 			
            <div class="user-message tal left">
-           		<h3>Inbox <span class="compose-new"><a href="#" title="">Compose</a></span></h3>
+           		<h3>Compose</h3>
 				
 				<div class="inbox">
-					<ul class="left messageacts">
-						<li><a href="" title="">Select all</a></li>
-						<li><a href="" title="">Select none</a></li>
-						<li><a href="" title="">Mark as read</a></li>
-						<li><a href="" title="">Mark as spam</a></li>												
-					</ul>
+				
+					<div class="cform">
+						
 					
+					<form action="" method="get" accept-charset="utf-8">
 					<div class="left messagebox">
-						<input type="checkbox" name="" value="" id="" class="left cb">
+					
 						
-						<div class="account-avatar left">
-							<img src="img/avatar/5.jpg" alt="Avatar" />
-						</div><!-- account-avatar -->
-						
-						<div class="left message-from">
-							<h3 class="username"><a href="">Sam Daon</a></h3>
-							<h3 class="datetime">March 21, 2010 at 11:56 am</h3>							
-						</div><!-- message-from -->
-						
+			
 						<div class="left hcontent">
-							<h3><a href="inbox_reply.html" title="">lorem ipsum</a></h3>
+							
+								
+							
+							<div class="formline">
+								<label for="to">To user(s):</label><input type="text" name="to" value="" id="to" />
+								<span title="This field is required" class="require_icon right">Required</span>
+								<!-- ERROR MESSAGE -->
+								<div class="tal left">
+									<div class="not-arrow left">	
+									</div><!-- .not-arrow -->
+									<p class="notifydialog error">
+										<strong>Whoops!</strong>
+										You didn't enter a username.</p>
+								</div>
+								<!-- END ERROR MESSAGE -->
+							</div><!-- .cfor -->
+								
+							<div class="formline">
+								<label for="subject">Subject:</label><input type="text" name="to" value="" id="subject" />
+							</div><!-- .formline -->	
+							
 							<div class="inner left">
-									<!-- WHEN USERS CILCK ON CONTENT - REDIRECTS USER TO FULL MESSAGE WITH REPLY TEXTBOX-->
-									<a href="inbox_reply.html" title="inbox_reply" title="">
-									<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p></a>
+								<p>Instruction: Use commas(,) to separate two or more users.</p>
 							</div><!-- .inner -->
-							
-							<div class="left ldelete">
-								<a href="#" title="Delete this message">Delete this message</a>
-							</div><!-- .ldelete -->
-							
+						
 						</div><!-- hcontent -->
 					</div><!-- messagebox -->
-					<div class="left messagebox">
-						<input type="checkbox" name="" value="" id="" class="left cb">
+					<div class="replymsg">
+					<h3>Your message</h3>
+					<div class="textareamsg">
 						
-						<div class="account-avatar left">
-							<img src="img/avatar/5.jpg" alt="Avatar" />
-						</div><!-- account-avatar -->
-						
-						<div class="left message-from">
-							<h3 class="username"><a href="">Sam Daon</a></h3>
-							<h3 class="datetime">March 21, 2010 at 11:56 am</h3>							
-						</div><!-- message-from -->
-						
-						<div class="left hcontent">
-							<h3><a href="inbox_reply.html" title="">lorem ipsum</a></h3>
-							<div class="inner left">
-								<!-- WHEN USERS CILCK ON CONTENT - REDIRECTS USER TO FULL MESSAGE WITH REPLY TEXTBOX-->
-								<a href="inbox_reply.html" title="inbox_reply" title="">
-								<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p></a>
-							</div><!-- .inner -->
-							
-							<div class="left ldelete">
-								<a href="#" title="Delete this message">Delete this message</a>
-							</div><!-- .ldelete -->
-							
-						</div><!-- hcontent -->
-					</div><!-- messagebox -->
+							<textarea name="Name" rows="8" cols="60"></textarea>
 
-					<div class="left messagebox">
-						<input type="checkbox" name="" value="" id="" class="left cb">
-						
-						<div class="account-avatar left">
-							<img src="img/avatar/5.jpg" alt="Avatar" />
-						</div><!-- account-avatar -->
-						
-						<div class="left message-from">
-							<h3 class="username"><a href="">Sam Daon</a></h3>
-							<h3 class="datetime">March 21, 2010 at 11:56 am</h3>							
-						</div><!-- message-from -->
-						
-						<div class="left hcontent">
-							<h3><a href="inbox_reply.html" title="">lorem ipsum</a></h3>
-							<div class="inner left">
-								<!-- WHEN USERS CILCK ON CONTENT - REDIRECTS USER TO FULL MESSAGE WITH REPLY TEXTBOX-->
-								<a href="inbox_reply.html" title="">
-								<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p></a>
-							</div><!-- .inner -->
-							
-							<div class="left ldelete">
-								<a href="#" title="Delete this message">Delete this message</a>
-							</div><!-- .ldelete -->
-							
-						</div><!-- hcontent -->
-					</div><!-- messagebox -->
+							<p><input type="submit" value="Send &rarr;" class="left submitsignin"></p>
 					
-					<!-- PAGINATION -->
-					<div id="tnt_pagination">
-					<span class="disabled_tnt_pagination">Prev</span><a href="#forwaed">Next</a></div>
-					<!-- /PAGINATION -->
+						
+					</div><!-- .textmsg -->
+					</div><!-- .replymes -->
+					</form>
+					</div><!-- .cform -->
 				</div><!-- inbox -->
 				
 				
