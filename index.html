@@ -1,11 +1,310 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>New Web Project</title>
-    </head>
-    <body>
-        <h1>New Web Project Page</h1>
-    </body>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title><!-- Insert your title here --></title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+    <link rel="stylesheet" href="Css/style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/frontend.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#latest_cutie > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+		});
+	</script>
+</head>
+<body>
+	<div id="home">
+		<!-- Header -->
+		<div id="header">
+			<div class="center">
+				<ul id="topnav">
+					<li><a href="#" title="F.A.Q">F.A.Q</a> |</li>	
+					<li><a href="#" title="Support">support</a> |</li>
+					<li><a href="#" title="">Company</a> |</li>
+					<li><a href="#" title="">Contact</a> |</li>
+					<li><a href="#" title="">Read Our Blog</a> |</li>
+					<li class="twitter"><a href="#" title="">Follow Us On Twitter</a></li>			
+				</ul><!-- /topnav -->
+			</div>
+			
+			<!-- Logo -->
+			<div id="logo" class="center">
+				<div class="cutielogo left"><a href="#">CutieSpot</a></div><!-- /cutieslogo -->
+               <div id="searchbox" class="clearfix left">
+						<input type="text" name="" value="Search CutieSpot by Location..." id="textsearch" />
+						
+						<input type="submit" name="" value="" id="searchbutton" />
+					</div><!-- /searchbox -->
+				<!-- Single line of sign up and sign in text but can be placed after user login as "User Profile" -->
+				<div class="topprofile right">
+					<a href="#" title="Share with us" class="sharewithus left">Share with us</a> <a href="#" title="Sign Up">sign up</a> or <a href="#" title="Login">login</a></li>
+				</div>	
+				<!-- /topprofile -->
+			</div>	
+			<!-- End Logo -->
+			
+			<!-- Navigation with Tabs-->
+			<div id="navigation" class="center">
+				<ul id="cutietabs">
+					<li><a href="" title="">Homepage</a></li>
+					<li><a href="" title="">I am Single</a></li>										
+					<li><a href="" title="">Cuties</a></li>
+					<li><a href="" title="">CutieSpots</a></li>
+					<li><a href="" title="">Business</a></li>
+					<li><a href="" title="">Mobile Apps</a></li>
+				</ul><!-- /cutietabs -->
+				
+				
+			</div>
+			<!-- End Navigation with Tabs-->
+		</div>
+		<!-- End Header -->
+		
+		<!-- FRONTPAGE MAP -->
+			<div id="frontpage-map" class="center">
+				<div id="" class="col250p right">
+					<a href="#" class="reportacutie right">
+                    	Report A Cutie
+                    </a>
+                    
+                    <a href="#" title="Apple iPhone" class="appleiphone right">CutieSpot for iPhone</a>
+                    <a href="#" title="Apple iPhone" class="googleandroid right">CutieSpot for iPhone</a>
+				</div><!-- #left-bar -->
+				
+				
+				<div id="fp-map" class="left">
+					<div id="innermap">
+						
+					</div><!-- #innermap -->
+				</div><!-- #fp-map -->
+				
+			</div><!-- #frontpage-map -->
+		
+		<!-- END FRONTPAGE MAP -->
+		
+		
+		
+		<!-- Wrapper -->
+		<div id="wrapper" class="center">
+			
+            <div id="livestreams" class="tal left">
+            
+            	<!-- TRANSPARENT BOTTOM EFFECT -->
+                <div id="bg-transparent">
+                
+                </div>
+                <!-- END TRANSPARENT BOTTOM EFFECT -->
+            	<h3 class="bigtoptitle">What are people doing right now?</h3>
+                
+                 <!-- BEGIN FEED STREAM -->
+                <div class="feed-stream">
+                	<div class="feed-avatar left">
+                    	<a href="#" title="Jakes"><img src="img/avatar/playground.jpg" /></a>
+                    </div>
+                	<div class="feed-box left">
+                    	<h3><a href="#" title="Jakes">Jakes</a> just found <a href="" title="">Neytiri</a> as a cutie</h3>
+                        <div class="feed-info">
+                        at <a href="#" title="Click to go to location">13401-13499 County Road 1106, Flint, TX 75762, USA</a> ·  <a href="#" title="Click to go to location" class="feed-time">one minute ago</a>
+                        </div>
+                        <div class="feed-cat">
+                        In: <a href="#" title="Just found a cutie?">Just found a cutie?</a> ·  <a href="#" title="Comment">Comment</a> ·  <a href="#" title="Click to add as favorite.">Fav</a>
+                        </div>
+                    </div><!-- /feed-box -->
+                </div><!-- /feed-stream -->
+                <!-- END  FEED STREAM -->
+                
+                
+                <!-- BEGIN FEED STREAM -->
+                <div class="feed-stream">
+                	<div class="feed-avatar left">
+                    	<a href="#" title="Jakes"><img src="img/avatar/anne.jpg" /></a>
+                    </div>
+                	<div class="feed-box left">
+                    	<h3><a href="#" title="Jakes">Jakes</a> just found <a href="" title="">Neytiri</a> as a cutie</h3>
+                        <div class="feed-info">
+                        at <a href="#" title="Click to go to location">13401-13499 County Road 1106, Flint, TX 75762, USA</a> ·  <a href="#" title="Click to go to location" class="feed-time">one minute ago</a>
+                        </div>
+                        <div class="feed-cat">
+                        In: <a href="#" title="Just found a cutie?">Just found a cutie?</a> ·  <a href="#" title="Comment">Comment</a> ·  <a href="#" title="Click to add as favorite.">Fav</a>
+                        </div>
+                    </div><!-- /feed-box -->
+                </div><!-- /feed-stream -->
+                <!-- END  FEED STREAM -->
+                
+                <!-- BEGIN FEED STREAM -->
+                <div class="feed-stream">
+                	<div class="feed-avatar left">
+                    	<a href="#" title="Jakes"><img src="img/avatar/anne.jpg" /></a>
+                    </div>
+                	<div class="feed-box left">
+                    	<h3><a href="#" title="Jakes">Jakes</a> found <a href="" title="">Pandora Planet Coffee Shop</a> as a CutieSpot</h3>
+                        <div class="feed-info">
+                        at <a href="#" title="Click to go to location">13401-13499 County Road 1106, Flint, TX 75762, USA</a> ·  <a href="#" title="Click to go to location" class="feed-time">one minute ago</a>
+                        </div>
+                        <div class="feed-cat">
+                        In: <a href="#" title="Just found a cutie?">Found a CutieSpot?</a> ·  <a href="#" title="Comment">Comment</a> ·  <a href="#" title="Click to add as favorite.">Fav</a>
+                        </div>
+                    </div><!-- /feed-box -->
+                </div><!-- /feed-stream -->
+                <!-- END  FEED STREAM -->
+                
+                <!-- BEGIN FEED STREAM -->
+                <div class="feed-stream">
+                	<div class="feed-avatar left">
+                    	<a href="#" title="Jakes"><img src="img/avatar/playground.jpg" /></a>
+                    </div>
+                	<div class="feed-box left">
+                    	<h3><a href="#" title="Jakes">Jakes</a> just found <a href="" title="">Neytiri</a> as a cutie</h3>
+                        <div class="feed-info">
+                        at <a href="#" title="Click to go to location">13401-13499 County Road 1106, Flint, TX 75762, USA</a> ·  <a href="#" title="Click to go to location" class="feed-time">one minute ago</a>
+                        </div>
+                        <div class="feed-cat">
+                        In: <a href="#" title="Just found a cutie?">Just found a cutie?</a> ·  <a href="#" title="Comment">Comment</a> ·  <a href="#" title="Click to add as favorite.">Fav</a>
+                        </div>
+                    </div><!-- /feed-box -->
+                </div><!-- /feed-stream -->
+                <!-- END  FEED STREAM -->
+                
+                <!-- BEGIN FEED STREAM -->
+                <div class="feed-stream">
+                	<div class="feed-avatar left">
+                    	<a href="#" title="Jakes"><img src="img/avatar/anne.jpg" /></a>
+                    </div>
+                	<div class="feed-box left">
+                    	<h3><a href="#" title="Jakes">Jakes</a> found <a href="" title="">Pandora Planet Coffee Shop</a> as a CutieSpot</h3>
+                        <div class="feed-info">
+                        at <a href="#" title="Click to go to location">13401-13499 County Road 1106, Flint, TX 75762, USA</a> ·  <a href="#" title="Click to go to location" class="feed-time">one minute ago</a>
+                        </div>
+                        <div class="feed-cat">
+                        In: <a href="#" title="Just found a cutie?">Found a CutieSpot?</a> ·  <a href="#" title="Comment">Comment</a> ·  <a href="#" title="Click to add as favorite.">Fav</a>
+                        </div>
+                    </div><!-- /feed-box -->
+                </div><!-- /feed-stream -->
+                <!-- END  FEED STREAM -->
+            </div><!-- /livestreams -->
+			
+			<!-- RIGHT SIDEBAR -->
+			<div id="sidebar" class="right">
+				<h3 class="bigtoptitle">Featured</h3>
+				<ul class="tabs">
+				<li class="active"><a href="#"><span>Users </span></a></li>
+				<li><a href="community.html"><span>Locations </span></a></li>
+				</ul><!-- /tabs -->
+				<div class="featured-innercontent">
+					<div class="innerbox clearfix">
+						<a href="h3"><img src="img/avatar/1.jpg" width="50" height="50" alt="1"></a>
+						<p><h3 class="sf"><a href="" title="">James*_*</a></h3></p>
+						<p class="sf">
+							1234 followers | <span class="favedcutie">by 123 persons</span>
+						</p>
+					</div><!-- .innerbox -->
+					<div class="innerbox clearfix">
+						<a href="h3"><img src="img/avatar/2.jpg" width="50" height="50" alt="2"></a>
+						<p><h3 class="sf"><a href="" title="">James*_*</a></h3></p>
+						<p class="sf">
+							1234 followers | <span class="favedcutie">by 123 persons</span>
+						</p>
+					</div><!-- .innerbox -->
+					<div class="innerbox clearfix">
+						<a href="h3"><img src="img/avatar/3.jpg" width="50" height="50" alt="3"></a>
+						<p><h3 class="sf"><a href="" title="">James*_*</a></h3></p>
+						<p class="sf">
+							1234 followers | <span class="favedcutie">by 123 persons</span>
+						</p>
+					</div><!-- .innerbox -->
+					<div class="innerbox clearfix">
+						<a href="h3"><img src="img/avatar/4.jpg" width="50" height="50" alt="4"></a>
+						<p><h3 class="sf"><a href="" title="">James*_*</a></h3></p>
+						<p class="sf">
+							1234 followers | <span class="favedcutie">by 123 persons</span>
+						</p>
+					</div><!-- .innerbox -->
+					<div class="innerbox clearfix">
+						<a href="http://example.com/"><img src="img/avatar/5.jpg" width="50" height="50" alt="5"></a>
+						<p><h3 class="sf"><a href="" title="">James*_*</a></h3></p>
+						<p class="sf">
+							1234 followers | <span class="favedcutie">by 123 persons</span>
+						</p>
+					</div><!-- .innerbox -->
+				</div><!-- .featured-innercontent -->
+			</div><!-- #right-sidebar -->
+			<!-- END RIGHT SIDEBAR -->
+			
+            <div class="hozline center"></div>
+			
+			<div class="submenufooter center">
+				<div class="innermenu">
+					<h3>Explore</h3>
+					<ul>
+						<li><a href="" title="">Overviews</a></li>
+						<li><a href="" title="">Updates</a></li>
+						<li><a href="" title="">Cuties</a></li>
+						<li><a href="" title="">CutieSpots</a></li>
+						<li><a href="" title="">Locations</a></li>
+						<li><a href="" title="">Business</a></li>
+					</ul>
+				</div><!-- .innermenu -->
+				<div class="innermenu">
+					<h3>Learn More</h3>
+					<ul>
+						<li><a href="" title="">About</a></li>
+						<li><a href="" title="">Features</a></li>
+						<li><a href="" title="">Contact</a></li>
+						<li><a href="" title="">Blog</a></li>
+						<li><a href="" title="">Feedback</a></li>
+						<li><a href="" title="">Privacy</a></li>
+						<li><a href="" title="">Terms of use</a></li>
+						<li><a href="" title="">API</a></li>
+						<li><a href="" title="">Advertisment</a></li>
+					</ul>
+				</div><!-- .innermenu -->
+				<div class="innermenu">
+					<h3>Join CutieSpot</h3>
+					<ul>
+						<li><a href="" title="">Register an account</a></li>
+						<li><a href="" title="">Login</a></li>
+						<li><a href="" title="">Invite Friends</a></li>
+					</ul>
+				</div><!-- .innermenu -->
+				<div class="innermenu">
+					<h3>CutieSpot Mobile</h3>
+					<ul>
+						<li><a href="" title="">Android Platforms</a></li>
+						<li><a href="" title="">iPhone</a></li>
+						<li><a href="" title="">Java-based Platforms</a></li>
+					</ul>
+				</div><!-- .innermenu -->
+			</div><!-- .submenufooter -->
+		</div>
+		<!-- End Wrapper -->
+		
+		<!-- Footer -->
+		<div id="footer">
+			<div class="center">
+				<div class="footerlogo left">
+					<a href="" title="">CutieSpot</a>
+				</div><!-- .footerlogo -->
+				<ul id="bottomnav">
+					<li><a href="#" title="F.A.Q">F.A.Q</a> |</li>	
+					<li><a href="#" title="Support">support</a> |</li>
+					<li><a href="#" title="">Company</a> |</li>
+					<li><a href="#" title="">Contact</a> |</li>
+					<li><a href="#" title="">Read Our Blog</a> |</li>
+					<li><a href="" title="">Terms of use</a></li>
+					
+				</ul><!-- /topnav -->
+				<div class="copyright tar">
+					Copyright &copy; CutieSpot. All Rights Reserved. By <a href="#">DataFountain</a>
+				</div><!-- .copyright -->
+			</div><!-- .center -->
+			<div class="fbgdark">
+				
+			</div><!-- .fbgdark -->
+		</div>	
+		<!-- End Footer -->
+	</div><!-- home -->
+</body>
+
 </html>
