@@ -36,7 +36,7 @@
 					</div><!-- /searchbox -->
 				<!-- Single line of sign up and sign in text but can be placed after user login as "User Profile" -->
 				<div class="topprofile right">
-					<a href="#" title="Share with us" class="sharewithus left">Share with us</a> <a href="#" title="Sign Up">sign up</a> or <a href="#" title="Login">login</a>
+					<a href="#" title="Share with us" class="sharewithus left">Share with us</a> <a href="#" title="Sign Up">sign up</a> or <a href="#" title="Login">login</a></li>
 				</div>	
 				<!-- /topprofile -->
 			</div>	
@@ -69,15 +69,14 @@
 				
 				<div class="inbox">
 					<ul class="left messageacts">
-						<li><a href="" title="Select all">Select all</a></li>
-						<li><a href="" title="Select none">Select none</a></li>
-						<li><a href="" title="Mark as read">Mark as read</a></li>
-						<li><a href="" title="Mark as spam">Mark as spam</a></li>
-						<li><a href="" title="Delete" class="ldelete">Delete</a></li>												
+						<li><a href="" title="">Select all</a></li>
+						<li><a href="" title="">Select none</a></li>
+						<li><a href="" title="">Mark as read</a></li>
+						<li><a href="" title="">Mark as spam</a></li>												
 					</ul>
-					<!-- THIS MESSAGE MARK AS READ -->
-					<div class="left messagebox read">
-						<input type="checkbox" name="" value="" id="" class="left cb" />
+					
+					<div class="left messagebox">
+						<input type="checkbox" name="" value="" id="" class="left cb">
 						
 						<div class="account-avatar left">
 							<img src="img/avatar/5.jpg" alt="Avatar" />
@@ -102,9 +101,8 @@
 							
 						</div><!-- hcontent -->
 					</div><!-- messagebox -->
-					<!-- END OF THIS MESSAGE MARK AS READ -->
 					<div class="left messagebox">
-						<input type="checkbox" name="" value="" id="" class="left cb"/>
+						<input type="checkbox" name="" value="" id="" class="left cb">
 						
 						<div class="account-avatar left">
 							<img src="img/avatar/5.jpg" alt="Avatar" />
@@ -131,7 +129,7 @@
 					</div><!-- messagebox -->
 
 					<div class="left messagebox">
-						<input type="checkbox" name="" value="" id="" class="left cb"/>
+						<input type="checkbox" name="" value="" id="" class="left cb">
 						
 						<div class="account-avatar left">
 							<img src="img/avatar/5.jpg" alt="Avatar" />
