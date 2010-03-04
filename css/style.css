@@ -752,7 +752,7 @@ a.wgbt span{
 	float:left;
 	width:250px;
 }
-.cform form .formline .submitsignin, .replybt, .commentbt, .replymsg .submitsignin{
+.cform form .formline .submitsignin, .replybt, .commentbt, .replymsg .submitsignin, .browsemorebt a{
 	margin-top:2px;
 	min-width:130px;
 	padding:2px 0;
@@ -768,7 +768,24 @@ a.wgbt span{
 		border-left: 1px solid #fff;
 		-moz-border-radius:3px;
 }
+.browsemorebt{
 
+	float:right;
+	clear:both;
+	width:1000px;
+	margin-top:20px;
+	text-align:center;
+}
+.browsemorebt a{
+	border: 1px solid #999;
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	color:#4C4C4C;
+	text-decoration: none;
+	font-size: 12px;
+	margin:0 auto;
+	padding:10px 15px;
+}
 .cform form .formline input[type="text"]:hover, input[type="password"]:hover{
 	border:1px solid #D6D6D6;
 	background:#F1f1f1;
@@ -3202,4 +3219,5 @@ padding:5px 10px;
 .single2{
 	width:100%;
 	padding-top:20px;
+	padding-bottom:20px;
 }
