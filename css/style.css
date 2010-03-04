@@ -2947,3 +2947,259 @@ padding:5px 10px;
 	margin-left:10px;
 	height:40px;
 }
+
+/*SINGLE*/
+.singlemain .singletop{
+	margin-top:10px;
+	background:#fefeff;
+	overflow:hidden;
+}
+.singlemain .singletop .singleprofile{
+	padding:5px;
+	background:url('../img/lightblue_grad.png') repeat-x top left;
+}
+.singlemain .singletop .singleprofile .avatar, .singleactivities .innersbox .savatar, .single2 .innersbox .savatar{
+	width:55px;
+	height:61px;
+	padding:2px;
+	border:1px solid #f1f1f1;
+	margin:0px 15px 0 0;
+	-moz-box-shadow:0 1px 3px #ddd;
+	-webkit-box-shadow:0 1px 3px #ddd;	
+	background:#fff	;
+}
+.singleactivities .innersbox .savatar, .single2 .innersbox .savatar{
+	border: 1px solid #FFF;
+}
+.singleactivities .innersbox .savatar img, .single2 .innersbox .savatar img{
+	width:55px;
+}
+.singlemain .singletop .singleprofile{
+	text-align:left;
+	width:380px;
+	border: 1px solid #ccc;
+	overflow:hidden;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;	
+	-khtml-border-radius:3px;	
+	border-radius:3px;
+	height:80px;
+}
+.singlemain .singletop .singleprofile h3, .singlemain .singletop .singleprofile h3 a{
+	color:#1259a3;
+	padding-bottom:10px;
+	text-decoration: none;
+	font-size: 14px;
+}
+.singlemain .singletop .singleprofile p{
+	color:#706e6e;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+.singlemain .singletop .singleprofile p a{
+	color:#ff6a2f !important;
+	text-decoration: none;
+
+}
+.singlemain .singletop .singleactions{
+
+	text-align: left;
+	overflow: hidden;
+	width:595px;
+	padding:15px 0;
+	
+	font-size: 13px;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color:#1259a3;
+}
+.singlemain .singletop .singleactions h3,  .single2 h3{
+	border-bottom: 1px solid #CCC;
+	display:block;
+	padding-bottom:15px;
+	margin:0;
+	
+}
+.singlemain .singletop .singleactions h3 span{
+	padding:0 10px;
+}
+.singlemain .singletop .singleactions a:hover{
+	background:url('../img/white-grad.png') repeat-x top left;
+	text-shadow:0 1px #fff;
+}
+.singlemain .singletop .singleactions a{
+	display:inline;
+	border: 1px solid #c1c1c1;
+	background:#c0ddff;
+	color:#999;
+	text-decoration: none;
+	padding:6px 15px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;	
+	-khtml-border-radius:5px;	
+	border-radius:5px;
+}
+.singlemain .singletop .singleactions .singlesearch{
+	overflow: hidden;
+	background:#999;
+	margin:5px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;	
+	-khtml-border-radius:3px;	
+	border-radius:3px;
+	border: 1px solid #909090;
+	background:url('../img/darkgray_grad.png') repeat-x top left;
+	height:41px;
+}
+
+.singlemain .singletop .singleactions .singlesearch .statusselect, .singlemain .singletop .singleactions .singlesearch input[type="submit"], .singlemain .singletop .singleactions .singlesearch input[type="text"]{
+	border: 5px solid #fff;
+	float: left;
+	margin:5px;
+	line-height:1.8em;
+	font-size: 14px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;	
+	-khtml-border-radius:5px;	
+	border-radius:5px;
+	color:#999;
+}
+ .singlemain .singletop .singleactions .singlesearch input[type="text"]{
+	background:url('../img/searchgrad.png') repeat-x top left;
+	border: 1px solid #999;
+	line-height:1.9em;
+	font-size: 15px;
+	padding:5px 0 5px 5px;
+	width:320px;
+}
+.singleactivities h3, .singlemap h3,  .single2 h3{
+	font-style: italic;
+	color:#999;
+	float:left;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+	width:100%;
+	padding-bottom: 5px;
+}
+.singleactivities, .singlemap{
+	text-align: left;
+	width:49%;
+	position:relative;
+	min-height:400px;
+}
+.singleactivities .innersbox, .single2 .innersbox{
+	margin-top:1px;
+	float:left;
+/*	clear:both;
+*/	background:url('../img/gray_grad.png') repeat-x top left;
+	height:72px;
+	width:485px;
+	padding:5px;
+	position:relative;
+	border: 1px solid #ddd;
+}
+.single2 .innersbox{
+	margin-right:3px;
+	margin-top:5px;
+}
+.single2 .innersbox:hover{
+	border: 1px solid #B3B3B3;
+}
+.single2 .innersbox .favbyuser{
+	color:#666;
+	font-size: 11px;
+	text-shadow:0 1px #FFF;
+	float:right;
+	margin-right:5px;	
+}
+.single2 .innersbox .favbyuser a{
+	text-decoration: none;
+	color:#F66;
+	font-weight: bold;
+}
+.singleactivities .innersbox .singlename, .single2 .innersbox .singlename{
+	float:left;
+	padding-top:4px;
+}
+.singleactivities .innersbox .singlename .datetime, .single2 .innersbox .singlename .datetime{
+	position:absolute;
+	top:10px;
+	right:0;
+	
+	width:100px;
+	font-size: 10px;
+		text-shadow:0 1px #FFF;
+	color:#999;
+}
+.singleactivities .innersbox .singlename, .singleactivities .innersbox .singlename a, .single2 .innersbox .singlename a, .single2 .innersbox .singlename{
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color:#5fa5ed;
+	text-shadow:0 1px #FFF;
+}
+.singlequotes{
+	background:url('../img/quotation.png') no-repeat top left;
+	margin-top:5px;
+	padding:5px 30px;
+	float:left;
+	width:330px;
+	height:25px;
+}
+.singlebottom{
+	border-top: 1px solid #999;
+	clear:both;
+	height:35px;
+	float:left;
+	width:497px;
+	background:#c0ddff;
+	-moz-border-radius:0 0 5px 5px;
+}
+.singlequotes p{
+	color:#666;
+	font-size: 11px;
+}
+.singlebottom .zoomtomap, .singlebottom .nextprev{
+	color:#0080FF !important;
+	font-size: 12px;
+	padding:6px 10px;
+}
+.singlebottom .nextprev a{
+	padding:5px;
+	display:block;
+	text-decoration: none;
+	color:#0080FF;
+	float:left;
+}
+.singlebottom .nextprev a:hover{
+	border-bottom: 1px dotted #fff;
+	
+}
+.singlebottom .zoomtomap input[type="text"]{
+	border: 1px solid #999;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #DDD;
+	padding:5px;
+	width:280px;
+}
+.singlemap .innermap{
+	width:98%;
+	float:left;
+	background:#ddd;
+	padding:5px;
+	height:330px;
+	-moz-border-radius:5px 5px 0 0;
+	
+}
+.singlemap{
+	margin-left:20px;
+}
+.singlemap .innermap .updatemap{
+	background:#fff;
+	width:480px;
+	height:330px;
+}
+.single2{
+	width:100%;
+	padding-top:20px;
+}
