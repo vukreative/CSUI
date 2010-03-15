@@ -72,18 +72,20 @@
 		<div id="wrapper" class="center">
 			
            	<div id="bizmain">
-				<div class="bizfilter">
-					<form action="#" method="post" accept-charset="utf-8">
-						
-						<div class="left tal mw180">
-						<label for="place">Business services (e.g restaurant)</label><input type="text" name="place" value="" id="place" class="mw180">
+				<div id="cutietool">
+							<div class="searchfilter">
+
+								<div class="innerline left tal">
+									<label for="spotter">Owner</label>
+									<input type="text" size="30" maxlength="64" autocomplete="off" value="" id="owner" name="data[Filter][owner]">				</div>
+								<div class="innerline left tal">
+								<label for="place">Business services (e.g restaurant)</label><input type="text" size="30" maxlength="64" autocomplete="off" value="" id="place" name="data[Filter][place]">				</div>
+								<div class="innerline left tal">
+								<label for="near">Address, City, State or Zip Code</label><input type="text" size="30" maxlength="64" autocomplete="off" value="" id="address" name="data[Filter][address]">			
+								</div>
+								<p><input type="button" onclick="javascript:submitFilterForm();" class="left filterbutton" value="Filter →"></p>
+							</div><!-- .searchfilter -->
 						</div>
-						<div class="left tal mw350">
-						<label for="near">Address, City, State or Zip Code</label><input type="text" name="near" value="" id="near" class="mw330">							
-						</div>
-						<p><input type="submit" value="Search &rarr;" class="left filterbutton"></p>
-					</form>
-				</div><!-- .searchfilter -->
 				
 				<div id="category-content">
 						<span class="cutiespot-category-title">Business Directory / <a href="#" id="currentselected">Restaurants</a></span>

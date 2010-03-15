@@ -742,7 +742,7 @@ a.wgbt span{
 	margin:5px 0 10px 145px;
 }
 .cform form .formline input[type="text"], input[type="password"]{
-	color:#666;
+	
 	background:#FFF;
 	border:1px solid #999;
 	color:#333;
@@ -751,6 +751,15 @@ a.wgbt span{
 	padding:5px;
 	float:left;
 	width:250px;
+}
+.cform form .formline textarea{
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	width:330px;
+	background:#FFF;
+	border:1px solid #999;
+	color:#333;
+	font-size:13px;
+	padding:5px;
 }
 .cform form .formline .submitsignin, .replybt, .commentbt, .replymsg .submitsignin, .browsemorebt a{
 	margin-top:2px;
@@ -786,6 +795,22 @@ a.wgbt span{
 	margin:0 auto;
 	padding:10px 15px;
 }
+.changelink a{
+	border: 1px solid #999;
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	color:#4C4C4C !important;
+	text-shadow:0 1px #FFF;
+	line-height:18px;
+	display:block;
+	float:left;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	padding:6px 5px;
+	margin-left:2px;
+	background:#FFF url('../img/white-grad.png') repeat-x top left;
+}
 .viewmore a{
 	text-decoration: none;
 	color:#B3B3B3 !important;
@@ -808,7 +833,7 @@ a.wgbt span{
 	border:1px solid #D6D6D6;
 	background:#F1f1f1;
 }
-.cform form .formline input[type="text"]:focus, input[type="password"]:focus{
+.cform form .formline input[type="text"]:focus, input[type="password"]:focus, textarea{
 	background:#F2FFE4;
 }
 .cform form .formline label{
@@ -1557,7 +1582,7 @@ padding-left:24px;
 	padding-top:5px;
 }
 #cutietool{
-	background:url('../img/cutietoolbg.png') no-repeat center center;
+	background:url('../img/cutietoolbg.png') no-repeat center 1px;
 	height:54px;
 }
 #cutietool .instructpad{
@@ -2062,7 +2087,7 @@ padding-left:24px;
 }
 .searchfilter{
 	display:block;
-	padding:12px 40px;
+	padding:4px 20px;
 }
 .bizfilter{
 	overflow:hidden;
@@ -2071,27 +2096,30 @@ padding-left:24px;
 .bizfilter .innerline{
 }
 .searchfilter .innerline{
-	width:250px;
+	width:280px;
+	margin-top:10px;
 }
 .searchfilter .innerline label, .bizfilter  label{
 	float:left;
-	font-size: 12px;
+	font-size: 11px;
 	color:#666;
-	padding-right:10px;	
-	padding-top:8px;
+	padding-right:5px;	
+	padding-top:2px;
+	width:100px;
+	text-align: right;
 }
 .bizfilter .innerline label{
-
 	color:#ccc;
 }
 .searchfilter .innerline input[type="text"], .bizfilter input[type="text"]{
 	float:left;
-	color:#333;
-	line-height: 1em;
-	padding:8px 5px;
+	color:#666;
+	line-height: .9em;
+	padding:5px;
 	border:1px solid #B4B4B4;
-	font-size: 14px;
-	width:170px;
+	font-size: 12px;
+	width:160px;
+	float:left;
 }
 .bizfilter .mw180.input[type="text"], .bizfilter  .mw180{
 	width:220px;
@@ -2109,13 +2137,13 @@ padding-left:24px;
 	font-size: 1em;
 	color:#776BBA;
 	font-weight: bold;
-		text-shadow: #fff 0 1px 0;
-		background:#f1f1f1;
-		border-bottom: 1px solid #ddd;
-		border-right: 1px solid #ddd;
-		border-top: 1px solid #fff;
-		border-left: 1px solid #fff;
-		-moz-border-radius:3px;
+	text-shadow: #fff 0 1px 0;
+	background:#f1f1f1;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-moz-border-radius:3px;
 }
  .bizfilter .filterbutton{
 	margin-top:20px;
@@ -2131,7 +2159,7 @@ a.appleiphone{
 	background:url(../img/bg_iphoneandroid_fade.png) no-repeat top left;
 	overflow:hidden;
 	height:0;
-	padding-top:115px;
+	padding-top:118px;
 	text-indent:-2000px;
 	line-height:115px;
 	width:240px;
@@ -2143,7 +2171,7 @@ a.googleandroid{
 	background:url(../img/bg_iphoneandroid_fade.png) no-repeat 0 -118px;
 	overflow:hidden;
 	height:0;
-	padding-top:115px;
+	padding-top:118px;
 	text-indent:-2000px;
 	line-height:115px;
 	width:240px;
@@ -3430,7 +3458,9 @@ padding:5px 10px;
 /*BUSINESS*/
 #bizmain{
 	float:left;
+	margin-top:10px;
 	overflow:hidden;
+	width:1000px;
 }
 #bizmain .business{
 	float:left;
@@ -3548,4 +3578,341 @@ padding:5px 10px;
 	text-decoration: none;
 	font-family: Helvetica, sans-serif;
 	padding-right:30px;
+}
+#bizmain .bizdetailinfo{
+	
+	overflow:hidden;
+	min-height:500px;
+}
+#bizmain .bizdetailinfo .bizbrand{
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color:#0095FF;
+}
+#bizmain .bizdetailinfo .bizcutiespot{
+	float:left;
+	clear:both;
+
+	padding:5px 0;
+	margin-top:20px;
+}
+#bizmain .bizdetailinfo h3.title{
+	color:#fff;
+	text-shadow:0 1px #0080FF;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 1px solid #4f96e5;
+	font-size: 15px;
+	padding:10px 15px;
+	background:url('../img/bizbluetab.png') no-repeat top left;
+	
+}
+#bizmain .bizdetailinfo h3.title span a{
+	text-decoration: none;
+	color:#666;
+	text-shadow:none;
+}
+#bizmain .bizdetailinfo .addressinfo, #bizmain .bizdetailinfo .category{
+	padding:5px 0;
+	color:#666;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+#bizmain .bizdetailinfo .category span{
+	font-weight: normal;
+	float:left;
+	color:#999;
+}
+#bizmain .bizdetailinfo .category a{
+	text-decoration: none;
+	color:#0187C5;
+	font-size: 12px;
+}
+#bizmain .bizdetailinfo .category a:hover{
+	text-decoration: underline;
+}
+#bizmain .bizdetailinfo ul.category{
+	width:350px;
+}
+#bizmain .bizdetailinfo .category li{
+	padding:5px 25px;
+}
+
+.biztool {
+/*	height:90px;
+*/}
+.biztool ul{
+	margin-top:10px;
+	float:left;
+	clear:both;
+}
+.biztool ul li{
+	float:left;
+	font-size: 12px;
+	margin-right:5px;
+}
+
+.biztool ul li a{
+	display:block;
+	text-decoration: none;
+	padding:5px;
+	color:#666;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	-khtml-border-radius:3px;
+	text-shadow:0 1px #ccc;
+	border: 1px solid #ddd;
+}
+
+.biztool ul li a:hover{
+	background:#;
+	border: 1px solid #b3b3b3;
+	
+}
+.vcard{
+	background:#ddd url('../img/icons/vcard.png') no-repeat center left;
+	padding-left:32px;
+	width:90px;
+}
+.vcard:hover{
+		background:#ccc url('../img/icons/vcard.png') no-repeat center left;
+}
+.email{background:#ddd url('../img/icons/email.png') no-repeat center left;
+padding-left:32px;
+width:90px;}
+.email:hover{background:#ccc url('../img/icons/email.png') no-repeat center left;}
+.copy{
+	background:#ddd url('../img/icons/copy.png') no-repeat center left;
+	padding-left:32px;
+	width:90px;
+}
+.copy:hover{
+	background:#ccc url('../img/icons/copy.png') no-repeat center left;
+}
+.bizmap{
+	margin-top:20px;
+	width:390px;
+	border: 1px solid #ddd;
+	height: 250px;
+}
+.suggestbt {
+	margin-top:5px;
+	float:left;
+	width: 163px;
+	height: 44px;
+	background: url('../img/suggestcutiebt.png') no-repeat;
+}
+
+.suggestbt a {
+	display: block;
+	width: 163px;
+	height: 0;
+	font-size: 1em;
+	padding-top: 44px;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url('../img/suggestcutiebt.png') no-repeat;
+}
+
+.bizownerbt {
+	float:rights;
+	width: 163px;
+	height: 44px;
+	background: url('../img/businessowenerbt.png') no-repeat;
+}
+
+.bizownerbt a {
+	display: block;
+	width: 163px;
+	height: 0;
+	font-size: 1em;
+	padding-top: 44px;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url('../img/businessowenerbt.png') no-repeat;
+}
+
+.bizsmap{
+	border: 1px solid #ddd;
+	float:left;
+	clear:both;
+	width:380px;
+	margin-top:0px;
+	height:250px;
+	padding:5px;
+}
+.bizspot{
+	width:1000px;
+	overflow:hidden;
+}
+.bizspot h3.na{
+	text-align: center;
+	padding:10px;
+	font-size: 18px;
+	font-weight: normal;	
+	color:#999;
+	background: url('../img/white-grad.png') repeat-x bottom left;
+	text-shadow:0 1px #FFF;
+	border: 1px solid #ccc;
+	
+}
+.bizspot .bizcutie{
+	margin-top:1px;
+	border: 1px solid #f1f1f1;
+	border-bottom: 1px solid #ddd;
+	padding-top:10px;
+/*	background:#f1f1f1 url('../img/bizgradbg.png') repeat-x bottom left;;
+*/	padding-bottom:10px;
+	padding-left:10px;
+	width:485px;
+	margin-right:3px;
+	height:156px;
+	float:left;
+	position:relative;
+	-moz-border-radius:3px;
+}
+.bizspot .bizcutie:hover{
+	border: 1px solid #ccc;
+}
+
+.bizspot .bizcutie .cstitle{
+	font-weight: normal;
+	width:350px;
+}
+.bizspot .bizcutie .cstitle a{
+	color:#0187C5;
+	text-decoration: none;	
+	text-shadow:0 1px #FFF;
+	font-size:13px;
+}
+.bizspot .bizcutie .cstitle a:hover{
+	border-bottom: 1px dotted #ccc;
+}
+.bizspot .bizcutie .csloc{
+	font-size: 11px;
+		width:350px;
+		font-weight: normal;
+		text-shadow:0 1px #FFF;
+		padding-top:10px;
+		line-height:18px;
+		color:#666;
+}
+.bizspot .bizcutie .csimage{
+	width:120px;
+	height:156px;
+	border: 1px solid #ccc;
+	float:left;
+	position:absolute;
+	top:0;
+	right:0;
+	padding:2px;
+	margin:5px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-khtml-border-radius:3px;
+	-webkit-border-radius:3px;			
+}
+.bullsep {
+	padding-left:20px;
+	background: url('../img/icons/bullet.gif') no-repeat center left;
+}
+ul.bizact{
+	padding-top:10px;
+}
+ul.bizact li{
+	float:left;
+	font-size: 12px;
+	width:80px;
+	margin-right:10px;
+	text-align: center;
+}
+ul.bizact li a.edit, ul.bizact li a.remove{
+	color:#fff;
+	text-shadow:0 1px #0080FF;
+	background-color: #6CF;
+	display:block;
+	padding:6px 5px;
+	text-decoration: none;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-khtml-border-radius:3px;
+	-webkit-border-radius:3px;
+	border: 1px solid #ccc;
+}
+ul.bizact li a.edit:hover{
+	border: 1px solid #0080FF;
+}
+ul.bizact li a.remove{
+	color:#F66;
+	text-shadow:0 1px #ddd;
+	background:#f1f1f1;
+}
+ul.bizact li a.remove:hover{
+	background:#F66;
+	color:#fff;
+	text-shadow:0 1px #F00;
+}
+.filterlink{
+	padding:15px 0;
+}
+.filterlink a.selected {
+	text-decoration: none;
+	color:#0080FF;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	font-style:italic;
+}
+.filterlink a{
+	color:#666;
+	text-decoration: none;
+	font-style:italic;
+	padding:5px;
+}
+.filterlink a:hover{
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;	
+	-webkit-border-radius:3px;		
+	border-radius:3px;	
+	color:#FFF;
+	background-color: #6CF;	
+}
+.listcuties{
+	width:1000px;
+	margin-top:50px;
+	clear:both;
+}
+.listcuties ul.pictures{
+	margin-top:15px;
+	text-align: center;
+
+}
+.listcuties ul.pictures li{
+	position: relative;
+    float: left;
+    display: inline;
+    margin: 0 45px 10px 0;
+    padding: 0;
+    width: 120px;
+    padding-top: 156px;
+    height: 4em;
+/*    overflow: hidden;
+*/  list-style-type: none;
+    font-size: 11px;
+    line-height: 1.181818em;
+    color: #696969;
+
+}
+.listcuties ul.pictures img{
+	    position: absolute;
+	    bottom: 4.2em;
+	    left: 0;
+	    padding: 3px;
+	    border: 1px solid #ccc;
+}
+.flwrap{
+	border-bottom: 1px solid #ddd;
+	overflow:hidden;
 }
