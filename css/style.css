@@ -468,6 +468,7 @@ a.reportacutie{
 	margin-right:2px;
 	height:33px;
 	width:125px;
+	text-align:center;
 }
 .tabs{
 	border-bottom:4px solid #DDDDDD;
@@ -478,7 +479,7 @@ a.reportacutie{
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	font-weight: bold;
 	font-style: italic;
-	font-size:.9em;
+	font-size:.8em;
 	color:#000;
 	display:block;
 	height:33px;
@@ -3880,39 +3881,128 @@ ul.bizact li a.remove:hover{
 	background-color: #6CF;	
 }
 .listcuties{
-	width:1000px;
-	margin-top:50px;
+	width:750px;
+	float:right;
+	margin-top:10px;
+}
+.listcuties .single-cutie{
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:#fff;
+	-moz-border-radius:3px;
+	border: 1px solid #73b1ef;
+	width:350px;
+	overflow:hidden;
+	text-align: left;
+
+	float:left;
+
+	margin:0 10px 20px 10px;
+}
+.listcuties .single-cutie  h3.title{
+	background:#73b1ef url('../img/gradb.png') repeat-x top left;
+	padding:5px 10px;
+	width:330px;
+	line-height:20px;
+	color:#fff;
+}
+.listcuties .single-cutie  h3.title a{
+	color:#fff;
+	text-decoration: none;
+}
+.listcuties .single-cutie .viewlink {
+	width: 55px;
+	height: 24px;
+	background: url('../img/viewbutton.png') no-repeat;
+}
+.listcuties .single-cutie .cutie-info{
+	background:#fff;
+}
+.listcuties .single-cutie .cutie-info .avatar{
+	width:120px;
+	height:156px;
+	padding:2px;
+	border: 1px solid #f1f1f1;
+	margin:5px;
+	float:left;
+}
+.listcuties .single-cutie .cutie-info .locinfo{
+	width:210px;
+	float:left;
+}
+.listcuties .single-cutie .cutie-info .locinfo .location{
+	padding:5px 0;
+	color:#73b1ef;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 1.5em;
+	height:55px;
+}
+.listcuties .single-cutie .cutie-info .locinfo li {
 	clear:both;
+	margin-bottom:1px;
+	padding-top:10px;
 }
-.listcuties ul.pictures{
-	margin-top:15px;
-	text-align: center;
+.listcuties .single-cutie .cutie-info .locinfo li label{
+	color:#63908e;
+	text-align: right;
+	padding-right: 5px;
+	width:100px;
+	float:left;
 
 }
-.listcuties ul.pictures li{
-	position: relative;
-    float: left;
-    display: inline;
-    margin: 0 45px 10px 0;
-    padding: 0;
-    width: 120px;
-    padding-top: 156px;
-    height: 4em;
-/*    overflow: hidden;
-*/  list-style-type: none;
-    font-size: 11px;
-    line-height: 1.181818em;
-    color: #696969;
-
+.listcuties .single-cutie .cutie-info .locinfo li.frowinfo{
+	height:20px;
+	background:#f9f9f9;
 }
-.listcuties ul.pictures img{
-	    position: absolute;
-	    bottom: 4.2em;
-	    left: 0;
-	    padding: 3px;
-	    border: 1px solid #ccc;
+.listcuties .single-cutie .cutie-info .locinfo li.frowinfo a{
+	text-decoration: none;
+	color:#0053a6;
+}
+.listcuties .single-cutie .viewlink a {
+	display: block;
+	width: 55px;
+	height: 0;
+	font-size: 1em;
+	padding-top: 24px;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url('../img/viewbutton.png') no-repeat;
 }
 .flwrap{
 	border-bottom: 1px solid #ddd;
 	overflow:hidden;
+}
+#leftsb{
+	width:240px;
+	float:right;
+	margin-top:10px;
+}
+#leftsb .titleheader{
+	margin-top:10px;
+	border: 1px solid #f54e96;
+	overflow:hidden;
+	-moz-border-radius:3px;
+}
+#leftsb .titleheader h3{
+	background:url('../img/gradpink.png') repeat-x top left;
+	padding:10px;
+	color:#fff;
+	font-size: 12px;
+}
+.suggestcutie {
+	width: 250px;
+	height: 69px;
+	background: url('../img/suggestacutie.png') no-repeat;
+}
+
+.suggestcutie a {
+	display: block;
+	width: 250px;
+	height: 0;
+	font-size: 1em;
+	padding-top: 69px;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url('../img/suggestacutie.png') no-repeat;
 }
