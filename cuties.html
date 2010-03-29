@@ -65,8 +65,29 @@
 		<div id="wrapper" class="center">
            <div id="bizmain">
 			<div id="cutietool">
-							
+							<div id="cutietool">
+									<div class="searchfilter">
+										<form accept-charset="utf-8" method="post" action="#">
+											<div class="innerline left tal">
+												<label for="spotter">Category</label>
+												<select id="filter_type" name="data[Filter][rate]">
+							<option selected="selected" value="all">Show all cuties</option>
+							<option value="1">Show only hot looking</option>
+							<option value="2">Show only cute oh cute</option>
+							<option value="3">Show only nice  service</option>
+							<option value="top">Show the top voted cuties</option>
+							</select>				</div>
+											<div class="innerline left tal">
+											<label for="place">Place</label><input type="text" size="30" maxlength="64" autocomplete="off" value="" id="place" name="data[Filter][place]">				</div>
+											<div class="innerline left tal">
+											<label for="near">Near</label><input type="text" size="30" maxlength="64" autocomplete="off" value="" id="address" name="data[Filter][address]">			
+											</div>
+											<p><input type="button" onclick="javascript:submitFilterForm();" class="left filterbutton" value="Filter →"></p>
+										</form>
+									</div><!-- .searchfilter -->
+								</div>
 			</div><!-- cutietool -->
+			
 			<div id="leftsb">
 				<div class="suggestcutie">
 					<a href="" title="">Suggest a cutie</a>
@@ -74,24 +95,42 @@
 				<div class="titleheader">
 					<h3>Don't miss these cuties</h3>
 					<!-- SINGLE CUTIE -->
-					<div class="single-cutie">
+					<ul class="featuredcutie">
 
-						<div class="cutie-info">
+						<li class="cutiethumb">
 							<img src="img/women/image1.jpg" width="256" height="333" alt="Image1" class="avatar">
-							<ul class="locinfo">
-								<li><p class="location">9547 Garden Grove Blvd, 
-								Garden Grove, CA 92841, 
-								USA</p></li>
-								<li class="frowinfo"><label>Spotter:</label><a href="#">phupt</a></li>
-								<li class="frowinfo"><label>Vote Average:</label></li>
-								<li class="frowinfo"><label>Status:</label><a href="http://example.com/">Work here</a></li>
-							</ul>
-						</div><!-- .cutie-info -->
-					</div><!-- .single-cutie -->
+						<a href="#" title="You gotta find out">You gotta find out</a>
+						</li><!-- .cutiethumb-->
+							<li class="cutiethumb">
+								<img src="img/women/image1.jpg" width="256" height="333" alt="Image1" class="avatar">
+								<a href="#" title="You gotta find out">You gotta find out You gotta find out</a>
+							</li><!-- .cutiethumb-->
+								<li class="cutiethumb">
+									<img src="img/women/image1.jpg" width="256" height="333" alt="Image1" class="avatar">
+									<a href="#" title="You gotta find out">You gotta find out</a>
+								</li><!-- .cutiethumb-->
+									<li class="cutiethumb">
+										<img src="img/women/image1.jpg" width="256" height="333" alt="Image1" class="avatar">
+										<a href="#" title="You gotta find out">You gotta find out You gotta find out</a>
+									</li><!-- .cutiethumb-->
+					</ul><!-- .featuredcutie -->
 					<!-- END SINGLE CUTIE -->
 				</div><!-- .titleheader -->
 			</div><!-- #leftsb -->
+			
+			
+			
 			<div class="listcuties">
+				<div class="displaydrop">
+					<form action="#" method="post">
+						<span>Display:</span><select>
+							<option>10</option>
+							<option>20</option>							
+							<option>30</option>							
+						</select>
+					</form>
+					<a href="#" title="next" class="nextbutton">Next</a>
+				</div><!-- .displaydrop -->
 				<!-- SINGLE CUTIE -->
 				<div class="single-cutie">
 					<h3 class="title left"><a href="http://example.com/">You gotta find out</a> <span class="viewlink right"><a href="#" title="View">View</a></span></h3>
@@ -219,7 +258,13 @@
 						</ul>
 					</div><!-- .cutie-info -->
 				</div><!-- .single-cutie -->
-				<!-- END SINGLE CUTIE -->				
+				<!-- END SINGLE CUTIE -->	
+				
+					<!-- PAGINATION -->
+					<div id="tnt_pagination">
+					<span class="disabled_tnt_pagination">Prev</span><a href="#1">1</a><a href="#2">2</a><a href="#3">3</a><span class="active_tnt_link">4</span><a href="#5">5</a><a href="#6">6</a><a href="#7">7</a><a href="#8">8</a><a href="#9">9</a><a href="#10">10</a><a href="#forwaed">Next</a></div>
+					<!-- /PAGINATION -->
+							
 			</div><!-- .listcuties -->	
 				
 			</div><!-- bizmain -->
