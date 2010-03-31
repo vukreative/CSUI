@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="css/pagination.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	
 	<script src="js/jquery.min.js" type="text/javascript"></script>
-	<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/frontend.js" type="text/javascript"></script>
 	
 </head>
@@ -72,11 +71,20 @@
 						<div class="cform left">
 							<form action="" method="#" accept-charset="utf-8">
 								<div class="formline">
-									<label for="">About the place:</label><input type="text" name="" value="" id="">
+									<label for="">Category:</label>
+									<select>
+										<option>Wines &amp; Bar</option>
+										<option>Wines &amp; Bar</option>
+										<option>Wines &amp; Bar</option>
+										<option>Wines &amp; Bar</option>
+									</select>
 								</div><!-- .formline -->
 								<div class="formline">
 									<label for="">Where</label><input type="text" name="" value="" id=""><span class="changelink"><a href="#">Change</a></span>
 								</div><!-- .formline -->
+									<div class="formline">
+										<label for="">About the place:</label><input type="text" name="" value="" id="">
+									</div><!-- .formline -->
 								<div class="formline">
 									<label for="">Phone:</label><input type="text" name="" value="" id="">
 								</div><!-- .formline -->
@@ -90,22 +98,131 @@
 
 							</form>
 						</div><!-- cform -->	
+						<div class="editmap right">
+							<h3>Drag marker on map to edit your location.</h3>
+						</div>
 						<div class="bizmap right">
-							
+						
 						</div><!-- .bizmap right -->
 					
 					
 					
 					<div class="bizcutiespot">
-					<h3 class="title">Your Cuties (6)</h3>		
-					<div class="bizspot">
-						<!-- IF BUSINESS DOESN'T HAVE ANY CUTIESPOT -->
-						<!-- h3 class="na">This business doesn't have any CutieSpot yet!</h3 -->	
-						
 					
+					<!-- CUTIE LIST -->	
+					<h3 class="title">Cuties List(6) <span class="addnew"><a href="#" id="addnewcutie">Add a new cutie</a></span></h3>		
+					<div class="bizspot">
+						<!-- UPLOAD CUTIE -->
+						<div id="uploadcutieinfo" class="cform" style="display:none">
+							<!-- IF COMPLETE -->
+							<div class="uploadnotify complete">
+								Your cutie has been uploaded sucessfully.
+							</div>
+							<!--END IF COMPLETE -->
+								
+								<div class="uploadnotify fail">
+									Can not upload your cutie because the <strong>Quick info</strong> field was not filled.
+								</div>
+								<form action="#" method="get" accept-charset="utf-8">
+								<h3>Add new cutie</h3>
+															
+								<div class="formline">
+									<label for="">Quick Info:</label><input type="text" name="" value="" id="">
+								</div><!-- .formline -->
+								<div class="formline">
+									<label for="">Image (Optional):</label><input type="text" name="" value="" id="">
+								</div><!-- .formline -->
+								<div class="formline">
+									<label for="">Category:</label>
+									<select>
+										<option>Hot Looking</option>
+										<option>Cute Oh Cute</option>
+										<option>Nice Service</option>
+									</select>
+								</div><!-- .formline -->
+								<div class="formline">
+									<label for="">CutieSpot:</label><input type="text" name="" value="" id="">
+								</div><!-- .formline -->
+								<div class="formline">
+									<label for="">Status:</label>	<input type="radio" value="1" name="status"/>Work here	 <input type="radio" value="2" name="status"/>A regular here
+								</div><!-- .formline -->
+								<div class="formline">
+									<label for="">Notes:</label>
+									<textarea name="Name" rows="8" cols="40"></textarea>
+								</div><!-- .formline -->
+								<div class="formline tar">
+									<input type="checkbox" />By checking this box, I agree to CutieSpot's Terms and Conditions. 
+								</div><!-- .formline -->
+								<div class="formline tac">
+									<p><input type="submit" value="Upload &rarr;" class="submitsignin"> <a href="#" title="Close to close this form" class="hideform" id="close_btn" >(Close)</a></p>
+								</div><!-- .formline -->
+							</form>
+
+						</div><!-- #uploadcutieinfo .cform -->
+						<!-- END UPLOAD CUTIE -->
 						
+						<div class="instructmess">
+							
+							<h3>To upload more cuties for this cutiespot. Click the <strong>Add a new cutie</strong> button up there to get started.<br />
+								Below is your current cuties.</div>
 					</div><!-- .bizspot -->
+					<!-- EDIT CUTIES PHOTO -->
+					<div id="editcutiesphoto">
+						<!-- CUTIEPHOTO-->
+						<div class="left cutiephotos">
+							<img src="img/women/image1.jpg" width="256" height="333" alt="Image1">
+							<h3><a href="#">You-Got-Ta-Find-Out</a></h3>
+							<h3>Category:<strong>Hot Looking</strong></h3>
+							<h3>Voting:</h3>
+							<div class="editactions">
+								<span><a href="#" title="Delete" class="delete">Delete</a></span>
+								<span><a href="#" title="Edit" class="edit">Edit</a></span>
+								<span><a href="#" title="Edit" class="view">View</a></span>
+																								
+							</div>
+						</div><!-- .cutiephotos -->
+						<!-- CUTIEPHOTO-->
+						<div class="left cutiephotos">
+							<img src="img/women/image1.jpg" width="256" height="333" alt="Image1">
+							<h3><a href="#">You-Got-Ta-Find-Out You-Got-Ta-Find-Out You-Got-Ta-Find-Out You-Got-Ta-Find-Out</a></h3>
+							<h3>Category:<strong>Hot Looking</strong></h3>
+							<h3>Voting:</h3>
+							<div class="editactions">
+								<span><a href="#" title="Delete" class="delete">Delete</a></span>
+								<span><a href="#" title="Edit" class="edit">Edit</a></span>
+								<span><a href="#" title="Edit" class="view">View</a></span>
+																								
+							</div>
+						</div><!-- .cutiephotos -->
+						<!-- CUTIEPHOTO-->
+						<div class="left cutiephotos">
+							<img src="img/women/image1.jpg" width="256" height="333" alt="Image1">
+							<h3><a href="#">You-Got-Ta-Find-Out</a></h3>
+							<h3>Category:<strong>Hot Looking</strong></h3>
+							<h3>Voting:</h3>
+							<div class="editactions">
+								<span><a href="#" title="Delete" class="delete">Delete</a></span>
+								<span><a href="#" title="Edit" class="edit">Edit</a></span>
+								<span><a href="#" title="Edit" class="view">View</a></span>
+																								
+							</div>
+						</div><!-- .cutiephotos -->
+						<!-- CUTIEPHOTO-->
+						<div class="left cutiephotos">
+							<img src="img/women/image1.jpg" width="256" height="333" alt="Image1">
+							<h3><a href="#">You-Got-Ta-Find-Out</a></h3>
+							<h3>Category:<strong>Hot Looking</strong></h3>
+							<h3>Voting:</h3>
+							<div class="editactions">
+								<span><a href="#" title="Delete" class="delete">Delete</a></span>
+								<span><a href="#" title="Edit" class="edit">Edit</a></span>
+								<span><a href="#" title="Edit" class="view">View</a></span>
+																								
+							</div>
+						</div><!-- .cutiephotos -->
+					</div>	
 					</div><!-- .bizcutiespot -->
+					
 				</div>
 				
 			
@@ -184,6 +301,21 @@
 		</div>	
 		<!-- End Footer -->
 	</div><!-- home -->
+ <script language="javascript">
+     $(document).ready(function(){
+
+		$("#addnewcutie").click(function(){
+		  $("#uploadcutieinfo").slideToggle("slow");
+		  // $(this).toggleClass("active");
+		});
+		$("#close_btn").click(function(){
+		  $("#uploadcutieinfo").slideToggle("slow");
+		  // $(this).toggleClass("active");
+		});
+
+	});
+     </script>
+
 </body>
 
 </html>

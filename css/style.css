@@ -742,7 +742,7 @@ a.wgbt span{
 	height:60px;
 	margin:5px 0 10px 145px;
 }
-.cform form .formline input[type="text"], input[type="password"]{
+.cform form .formline input[type="text"], input[type="password"], .cform form .formline select{
 	
 	background:#FFF;
 	border:1px solid #999;
@@ -1176,6 +1176,75 @@ padding-left:25px;
 	margin-right:8px;
 	background:#f1f1f1;
 	margin-bottom:5px;
+}
+#editcutiesphoto .cutiephotos{
+	margin-bottom:5px;
+	margin:5px;
+	width:310px;
+	border: 1px solid #fff;
+	border-bottom: 1px dotted #6CF;
+	padding-bottom:5px;
+	position:relative;
+	font-size: 12px;
+	clear:right;
+	height:170px;	
+
+}
+#editcutiesphoto .cutiephotos:hover{
+	background:#E6E6E6;
+	border: 1px solid #ddd;
+}
+#editcutiesphoto .cutiephotos img{
+	width:85px;
+	background:#f1f1f1;
+		height:85px;
+		border: 1px solid #ddd;
+		padding: .2em;
+		position:absolute;
+		top:0;
+		left:0;
+}
+#editcutiesphoto .cutiephotos h3 a{
+	text-decoration: none;
+	color:#B65703;
+	font-weight: bold;
+}
+#editcutiesphoto .cutiephotos h3{
+	font-weight: normal;
+	color:#333;
+	padding:10px 0;
+	margin-left:120px;
+	float:left;
+
+	border-bottom:1px dotted #ccc;
+}
+#editcutiesphoto .cutiephotos .editactions{
+	clear:both;
+	margin-top:10px;
+}
+#editcutiesphoto .cutiephotos .editactions span{
+	float:left;
+	padding:5px;
+	width:90px;
+}
+#editcutiesphoto .cutiephotos .editactions span a{
+	text-decoration: none;
+	color:#333;
+	display:block;
+	padding:5px;
+	text-align: center;
+	background:#f1f1f1;
+	border: 1px solid #fff;
+}
+#editcutiesphoto .cutiephotos .editactions span a.delete:hover{
+	background:#F66;
+	color:#FFF;
+}
+#editcutiesphoto .cutiephotos .editactions span a.view:hover,#editcutiesphoto .cutiephotos .editactions span a.edit:hover{
+	background:#6CF;
+}
+#editcutiesphoto .cutiephotos .editactions span a:hover{
+	cursor:pointer;
 }
 .relatedcutiespot .usermarkcuties{
 	margin-top:15px;
@@ -3598,6 +3667,14 @@ padding:5px 10px;
 	padding:5px 0;
 	margin-top:20px;
 }
+.addnew a{
+	background:#f1f1f1 url('../img/add.png') no-repeat top left;
+	margin-left:70px;
+	padding:7px;
+	color:#333;
+	text-shadow:0 1px #fff;
+	padding-left:35px;
+}
 #bizmain .bizdetailinfo h3.title{
 	color:#fff;
 	text-shadow:0 1px #0080FF;
@@ -3613,6 +3690,7 @@ padding:5px 10px;
 	color:#666;
 	text-shadow:none;
 }
+
 #bizmain .bizdetailinfo .addressinfo, #bizmain .bizdetailinfo .category{
 	padding:5px 0;
 	color:#666;
@@ -3697,6 +3775,15 @@ width:90px;}
 	width:390px;
 	border: 1px solid #ddd;
 	height: 250px;
+}
+.editmap{
+	width:390px;
+}
+.editmap h3{
+	font-size: 12px;
+	color:#666;
+	font-weight: normal;
+	padding-top:20px;
 }
 .suggestbt {
 	margin-top:5px;
@@ -4059,4 +4146,40 @@ a.nextbutton  {
 }
 .displaydrop span{
 	padding-right:10px;
+}
+.uploadcutieinfo{
+	overflow:hidden;
+	clear:both;
+	position:relative;
+}
+.backprofile{
+	text-decoration: none;
+	font-weight: bold;
+	color:#666;
+}
+.uploadnotify{
+	margin:5px;
+	padding:10px 20px;
+	font-size: 12px;
+}
+.complete{
+	border: 1px solid #00660C;
+		background:#f1f1f1;
+	color:#333;
+}
+.fail{
+	border: 1px solid #FF8000;
+		background:#f1f1f1;
+	color:#333;
+}
+.instructmess h3{
+	float:left;
+	font-size: 14px;
+	font-weight: normal !important;
+	color:#666666;
+	background-color: #FFF5CC;
+	border: 1px solid #E2E2E2;
+	margin:0 10px 10px 0;
+	padding:20px 10px;
+
 }
